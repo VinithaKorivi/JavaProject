@@ -1,6 +1,10 @@
 package GITjava;
 class R extends Thread{
-	static Thread mt;
+	//static Thread mt;
+	Thread mt;
+	R(Thread mt){
+		this.mt=mt;
+	}
 	public void run() {
 			try {
 				mt.join();
@@ -17,12 +21,14 @@ class R extends Thread{
 public class ChildJoin {
 
 	public static void main(String[] args) throws InterruptedException  {
-		R.mt =Thread.currentThread();
-		R t=new R();
+		Thread y= Thread.currentThread();   //nonstatic
+//		R.mt =Thread.currentThread();  static
+		R t=new R(y);
 		t.start();
 		for(int i=1;i<=5;i++)
 		{
 			System.out.println("Main Thread");
+			Thread.sleep(2000);
 	    }
 	
 	}
