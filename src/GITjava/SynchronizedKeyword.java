@@ -1,6 +1,5 @@
 package GITjava;
 class Display{
-	
 	public synchronized void wish(String name) 
 	{
 		for(int i=0;i<5;i++) 
