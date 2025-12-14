@@ -9,7 +9,7 @@ public class StringMethod4 {
         System.out.println(s.replace('d', 'm'));
         String v="             this is the variation between them   ";
         System.out.println(v);
-//        System.out.println(v.trim());
+      System.out.println(v.trim());
 	}
 
 }
