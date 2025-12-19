@@ -1,7 +1,7 @@
 package Basics;
 class Test{
 	public void m1() {
-		System.out.println("this is the m1 method");
+		System.out.println("this is public the m1 method");
 	}
 }
 public class Modifiers {
