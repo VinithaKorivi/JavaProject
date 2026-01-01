@@ -1,6 +1,11 @@
 package OOPS;
 
 public class Command {
+	
+	 protected  void Vinitha() {
+		  System.out.println("This is the protected method of other package");
+	  }
+
 
 	public static void main(String[] args) {
 		System.out.println("Hi");
