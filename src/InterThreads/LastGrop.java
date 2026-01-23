@@ -24,6 +24,7 @@ public class LastGrop {
 		t2.start();
 		System.out.println(pg.activeCount());
 		System.out.println(pg.activeGroupCount());
+		pg.list();
 	}
 
 }
