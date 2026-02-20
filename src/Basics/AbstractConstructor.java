@@ -20,7 +20,8 @@ public class AbstractConstructor extends Constr {
 		AbstractConstructor a=new AbstractConstructor(10,20,30,101);
 		System.out.println(a.x+"  "+a.y+"  "+a.z+" "+a.rollno);
 		Chi c=new Chi(8,9,5,"vinitha");
-		c.m1();
+		System.out.println(c.x+" "+c.y+"  "+c.z+" "+c.name);
+//		c.m1();
 	}
 
 }
