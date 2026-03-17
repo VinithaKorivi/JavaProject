@@ -33,7 +33,6 @@ public class Adaptercl {
 		Vehicle v=new Car();
 		v.start();
 		v.stop();
-
 	}
 
 }

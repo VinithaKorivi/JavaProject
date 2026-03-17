@@ -16,22 +16,22 @@ public class AutoboxandUnboxing {
 		Integer y=10;
 		System.out.println(x==y);
 		System.out.println(x.equals(y));
-		System.out.println("=============");
+		System.out.println("====1=========");
 		Integer x1=new Integer(10);
 		Integer y1=new Integer(10);
 		System.out.println(x1==y1);
 		System.out.println(x1.equals(y1));
-		System.out.println("=============");
+		System.out.println("===2==========");
 		Integer x2=new Integer(10);
 		Integer y2=10;
 		System.out.println(x2==y2);
 		System.out.println(x2.equals(y2));
-		System.out.println("=============");
+		System.out.println("====3=========");
 		Integer a=100;
 		Integer b=100;
 		System.out.println(a==b);
 		System.out.println(a.equals(b));
-		System.out.println("=============");
+		System.out.println("===4==========");  //out of chace range that is -128 to 127
 		Integer c=1000;
 		Integer d=1000;
 		System.out.println(c==d);
