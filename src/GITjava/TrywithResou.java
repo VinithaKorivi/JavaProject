@@ -9,7 +9,7 @@ import java.io.IOException;
 public class TrywithResou {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-    try(BufferedReader br=new BufferedReader(new FileReader("input.txt"))) {
+    try(BufferedReader br=new BufferedReader(new FileReader("abc.txt"))) {
     String line;
     while ((line = br.readLine()) != null) {
         System.out.println(line);
