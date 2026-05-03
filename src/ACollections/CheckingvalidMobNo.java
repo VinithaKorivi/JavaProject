@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class CheckingvalidMobNo {
 
 	public static void main(String[] args) {
-		 String PN="917013565007";
+		 String PN="7013565007";
 		    Pattern p=Pattern.compile("(0|91)?[7-9][0-9]{9}");
 		    Matcher m=p.matcher(PN);
 		    if(m.find() && m.group().equals(PN)) {
