@@ -12,7 +12,7 @@ class Fibboup
 		int b=1;
 		int c=0;
         System.out.println(c);
-		System.out.println(a+b);
+//		System.out.println(a+b);
 		for (;;)
 		{
 			c=a+b;

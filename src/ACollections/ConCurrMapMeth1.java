@@ -5,6 +5,7 @@ public class ConCurrMapMeth1 {
 	public static void main(String[] args) {
    ConcurrentHashMap m=new ConcurrentHashMap();
    m.put(101, "java");
+   m.put(102, "vini");
    m.putIfAbsent(102, "vini");
    System.out.println(m);
    m.putIfAbsent(102, "shiva");

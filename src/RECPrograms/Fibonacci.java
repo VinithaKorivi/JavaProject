@@ -10,11 +10,13 @@ class Fibonacci
 		int v=0;
         int b=1;
 		int c=0;
-		System.out.println(v+""+b);
-		for (int l=1;l<=10 ;l++ )
+		System.out.println(c);
+//		System.out.println(v+""+b);
+		for (int l=1;l<=a ;l++ )
 		{
 			c=v+b;
-			System.out.println(c);
+			if(c<=a) {
+			System.out.println(c);}
 		v=b;
         b=c;
 		}

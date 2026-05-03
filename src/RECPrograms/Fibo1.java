@@ -15,16 +15,17 @@ class Fibo1
 		  c=a+b;
 		  a=b;
 		  b=c;
+		}
 		if (c==n)
 		{
-			System.out.println(n+"is fibonaci");
+			System.out.println(n+" is fibonaci");
 		}
 		else
 		{
-		 System.out.println(n+"is not a fibonacci value");
+		 System.out.println(n+" is not a fibonacci value");
 		}
 		}
 	}
-}
+
 
 

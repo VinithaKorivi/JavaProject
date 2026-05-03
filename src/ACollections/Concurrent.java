@@ -1,5 +1,5 @@
 package ACollections;
-import java.util.*;
+import java.util.*;             //demo prog of concurrent modificaton
 public class Concurrent extends Thread {
 	static ArrayList l=new ArrayList();
     public void run() {
@@ -17,6 +17,7 @@ public class Concurrent extends Thread {
 		l.add("z");
 		Concurrent c=new Concurrent();
 		c.start();
+//		c.join();
 		Iterator itr=l.iterator();
 		while(itr.hasNext()) {
 			String s1=(String)itr.next();
