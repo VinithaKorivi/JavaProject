@@ -3,7 +3,7 @@ package RECPrograms;
 public class Palindrome {
 
 	public static void main(String[] args) {
-		int pal=121;
+		int pal=203;
 		int num=pal;
 		int rev=0;
       while(pal!=0) {
