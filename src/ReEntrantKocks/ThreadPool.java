@@ -17,7 +17,7 @@ class Printjob implements Runnable{
 }}
 public class ThreadPool {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
     Printjob[] a= {new Printjob("Accountant"),
     		          new Printjob("Cashier"),
     		          new Printjob("Engineer") };
