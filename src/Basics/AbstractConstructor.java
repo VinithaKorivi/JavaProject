@@ -21,7 +21,7 @@ public class AbstractConstructor extends Constr {
 		System.out.println(a.x+"  "+a.y+"  "+a.z+" "+a.rollno);
 		Chi c=new Chi(8,9,5,"vinitha");
 		System.out.println(c.x+" "+c.y+"  "+c.z+" "+c.name);
-//		c.m1();
+		//c.m1();
 	}
 
 }
