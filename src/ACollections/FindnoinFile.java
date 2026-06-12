@@ -15,6 +15,7 @@ public class FindnoinFile {
     	Matcher m=p.matcher(line);
     	 while (m.find()) {
              out.println(m.group());
+             System.out.println(m.group());
          }
 
          line = br.readLine();
