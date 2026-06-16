@@ -31,7 +31,7 @@ public class AutoboxandUnboxing {
 		Integer b=100;
 		System.out.println(a==b);
 		System.out.println(a.equals(b));
-		System.out.println("===4==========");  //out of chace range that is -128 to 127
+		System.out.println("===4==========");   //out of chace range that is -128 to 127
 		Integer c=1000;
 		Integer d=1000;
 		System.out.println(c==d);
