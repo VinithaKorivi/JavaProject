@@ -12,6 +12,7 @@ public class CreateInputFile {
         pw.println("Random text 9123456780");
         pw.println("917013565007");
         pw.println("Another: 917013565007");
+        pw.println("Today is friday");
 
         pw.close();
 
