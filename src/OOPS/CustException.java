@@ -23,7 +23,7 @@ public class CustException   {
     	 throw new TooOldException("you are too old to marry you missed your marriagable age");
      }
      else {
-    	 System.out.println("you will get matck details by email");
+    	 System.out.println("you will get match details by email");
      }
 	}
 
