@@ -15,7 +15,7 @@ public class EscapeExample {
         System.out.println("Hello\rWorld");  
 
         // Form Feed (moves to new page in printers, may not be visible in console)
-        System.out.println("Hello\fWorld");  
+        System.out.println("Hello\fvini");  
 
         // Single Quote
         System.out.println("It\'s a Java program");  
