@@ -32,3 +32,10 @@ public class DeadLock {
 	}
 
 }
+//
+//Thread t1 = new Thread(new Runnable() {
+//@Override
+//public void run() {
+//    a.methodA(b);
+//}
+//});
