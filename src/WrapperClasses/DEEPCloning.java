@@ -20,7 +20,7 @@ class Dog1 implements Cloneable{
 }
 public class DEEPCloning {
 
-	public static void main(String[] args)  throws CloneNotSupportedException {
+	public static void  main(String[] args)  throws CloneNotSupportedException {
 		Cat1 c=new Cat1(20);
 		Dog1 d1=new Dog1(c,10);
 		System.out.println(d1.i+"...."+d1.c.j);
